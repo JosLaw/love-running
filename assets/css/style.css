@@ -63,6 +63,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
     position: relative;
 }
 
@@ -130,7 +131,6 @@ h1, h2 {
 }
 
 #center-about {
-    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
@@ -203,7 +203,7 @@ hr {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
-    height: 300%;
+    height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -236,7 +236,7 @@ footer {
     color: #3a3a3a;
 }
 
-/* galley */
+/* gallery */
 
 #photos {
     clear: both;
@@ -249,6 +249,9 @@ footer {
     width: 100%;
 }
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -289,4 +292,28 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: center;
+    }
+}
+
+.left-about-heading, .right-about-heading {
+    width: inherit;
+}
+
+.left-about-heading h2, .right-about-heading h2{
+    width: 100%;
+    text-align: center;
+}
+
+.left-about-heading h2 p, .right-about-heading h2 p {
+    text-align: center;
+    padding: 0 20px;
 }
