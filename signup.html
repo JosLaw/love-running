@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header> <i class="fas fa-heartbeat"></i>
         <a href="index.html">
             <h2 id="logo">Love Running</h2>
         </a>
@@ -33,14 +33,14 @@
         </nav>
     </header>
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Let's get you signed up!</h2>
             <label for="fname">First Name</label>
-            <input name="first_name" id="fname" type="text" required>
+            <input name="first_name" id="fname" type="text" class="text-input" required>
             <label for="lname">Last Name</label>
-            <input name="last_name" id="lname" type="text" required>
+            <input name="last_name" id="lname" type="text" class="text-input" required>
             <label for="email">Email Address</label>
-            <input name="email_address" id="email" type="email" required>
+            <input name="email_address" id="email" type="email" class="text-input" required>
             <!-- Buttons -->
             <label for="road">Road</label>
             <input name="running_preference" id="road" type="radio" value="road" required>
@@ -48,7 +48,7 @@
             <input name="running_preference" id="trail" type="radio" value="trail" required>
             <label for="both">Both</label>
             <input name="running_preference" id="both" type="radio" value="both" required>
-            <input type="submit" value="Let's Run!">
+            <input type="submit" value="Let's Run!" class="join-button">
         </form>
     </section>
     <footer>
